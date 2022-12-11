@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Vinyl&display=swap');
+
+@import url( 'https://fonts.googleapis.com/css2?familia=Langosta&familia=Rubik+Spray+Paint&familia=Rubik+Vinilo&mostrar=swap ');
+
+@import url('https://fonts.googleapis.com/css2?familia=Langosta&mostrar=swap');
+
+@import url( 'https://fonts.googleapis.com/css2?familia=Langosta&familia=Rubik+Vinilo&mostrar=swap ');
+
+@font-face {
+    font-family: "letranueva";
+    src: url("../fuentes/trebuc.ttf") format('truetype');
+}
+
+body {background-color: white;
+      background-image: url(../img/fondo12.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      text-align: ;}
+
+header {background-color: white;
+        width: 80%;
+        height: 30%;
+        margin: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Lobster', cursive;
+}
+
+nav {width: 80%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.linknav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+    }
+
+a{
+  color: #000;
+}
+a:link{
+  text-decoration: none;
+}
+a:hover {
+  color: #1717FF;
+  cursor: pointer;
+}
+
+
+section {width: 80%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;}
+
+aside {background: rgba(255, 255, 255, .5);
+      float: right;
+      background-repeat: repeat;
+      position: fixed;
+      bottom: 0px;
+      right: 10px;
+      top: 0px;
+      width: 17%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: center;}
+
+
+footer {background-color: white;
+        width: 80%;
+        height: 30%;
+        margin: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;}
+
+.contenedor{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.otra{
+  font-family: 'Rubik Spray Paint', cursiva;
+}
+
+.nuevale{
+  font-family: 'Rubik Vinyl', cursivo;
+}
+
+.letragoogle{
+  font-family: 'Lobster', cursive;
+}
+
+
+.tit2 {width: 82.5%}
+.whats {width: 8vh;
+        position: fixed;
+        bottom: 1vh;
+        right: 38vh}
+.fuentelink {font-family: fantasy;}
+.fuentehelve {font-family: helvetica}
+.colorblanco {color: #F4F6F7;}
+.colorrojo {color: #E74C3C;}
+.colorazul {color: #2980B9;}
+.colornegro {color: black;}
+.tamañotitulo40 {font-size: 40px;}
+.tamañotitulo35 {font-size: 35px;}
+.tamañotitulo30 {font-size: 30px;}
+.tamañotitulo20 {font-size: 20px;}
+.enelmedio {text-align: center;}
+.subrayado {text-decoration: underline;}
+.tamañoimg {max-height: 180px;}
+.fondotxblanco {background: rgba(255, 255, 255, .5)}
+.fondotxnegro {background: black;}
+.fondotxtra {background-color: white;
+            filter:alpha(opacity=70);
+            -moz-opacity:.70;opacity:.70}
